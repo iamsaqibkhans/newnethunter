@@ -1,0 +1,11 @@
+#banner
+apt install figlet -y
+figlet "New Nethunter"
+echo " Powered By Mr Pentester"
+echo " MrPentester@pm.me"
+#termux storage setup
+termux-setup-storage pkg
+#install wget
+apt install wget -y && 
+wget -O install-nethunter-termux https://offs.ec/2MceZWr -y
+&& chmod +x install-nethunter-termux && ./install-nethunter-termux
